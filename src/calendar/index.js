@@ -221,7 +221,7 @@ class Calendar extends Component {
           accessibilityLabel={accessibilityLabel}
           disableAllTouchEventsForDisabledDays={this.props.disableAllTouchEventsForDisabledDays}
         >
-          
+          {date}
         </DayComp>
       </View>
     );
